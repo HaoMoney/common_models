@@ -1,0 +1,120 @@
++++ dirname predict.sh
+++ cd .
+++ pwd
++ DIRNAME=/home/users/haoqian/alad/prism-new/etq/bin/mmoe
++ export ROOT_PATH=/home/users/haoqian/alad/prism-new/etq/bin/mmoe/../
++ ROOT_PATH=/home/users/haoqian/alad/prism-new/etq/bin/mmoe/../
++ export TURING_DF_USER_NAME=haoqian01
++ TURING_DF_USER_NAME=haoqian01
+++ date '+%Y-%m-%d %H:%M:%S'
++ export 'TURING_DF_TRIGGER_TIME=2022-02-11 17:08:11'
++ TURING_DF_TRIGGER_TIME='2022-02-11 17:08:11'
++ export TURING_DF_MISSION_ID=0
++ TURING_DF_MISSION_ID=0
++ export TURING_DF_TASK_ID=0
++ TURING_DF_TASK_ID=0
++ export TURING_DF_INSTANCE_ID=0
++ TURING_DF_INSTANCE_ID=0
++ export TURING_DF_USER_CODE=044d8e3333
++ TURING_DF_USER_CODE=044d8e3333
++ export AFS_CLIENT=/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop
++ AFS_CLIENT=/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop
++ export TURING_CLIENT=/home/users/haoqian/turing-client/hadoop/bin/hadoop
++ TURING_CLIENT=/home/users/haoqian/turing-client/hadoop/bin/hadoop
++ export TURING_SUBMIT_HOME=/home/users/haoqian/turing-submit/turing-submit
++ TURING_SUBMIT_HOME=/home/users/haoqian/turing-submit/turing-submit
++ export PADDLECLOUD=/home/users/haoqian/.jumbo/bin/paddlecloud
++ PADDLECLOUD=/home/users/haoqian/.jumbo/bin/paddlecloud
++ source /home/users/haoqian/alad/prism-new/etq/bin/mmoe/..//../conf/env.online.conf
+++ export 'HADOOP_FS=/home/users/haoqian/turing-client/hadoop/bin/hadoop fs'
+++ HADOOP_FS='/home/users/haoqian/turing-client/hadoop/bin/hadoop fs'
+++ export 'HADOOP_STREAMING=/home/users/haoqian/turing-submit/turing-submit/turing-mr-submit streaming'
+++ HADOOP_STREAMING='/home/users/haoqian/turing-submit/turing-submit/turing-mr-submit streaming'
+++ export PYTHON_CLIENT=userpath.prism_route_done/packages/python2.7.8-cpu-tf1.8.tar.gz
+++ PYTHON_CLIENT=userpath.prism_route_done/packages/python2.7.8-cpu-tf1.8.tar.gz
+++ export PYTHON82_CLIENT=userpath.prism_route_done/packages/python27-gcc82.tar.gz
+++ PYTHON82_CLIENT=userpath.prism_route_done/packages/python27-gcc82.tar.gz
+++ export PYTHONTF_CLIENT=userpath.prism_route_done/packages/python27_tf.tar.gz
+++ PYTHONTF_CLIENT=userpath.prism_route_done/packages/python27_tf.tar.gz
+++ export MMOE_MODEL_3EPOCH=userpath.prism_route_done/model/mmoe_model_3epoch.tar.gz
+++ MMOE_MODEL_3EPOCH=userpath.prism_route_done/model/mmoe_model_3epoch.tar.gz
+++ export MMOE_MODEL_5EPOCH=userpath.prism_route_done/model/mmoe_model_5epoch.tar.gz
+++ MMOE_MODEL_5EPOCH=userpath.prism_route_done/model/mmoe_model_5epoch.tar.gz
+++ export MMOE_MODEL_10EPOCH=userpath.prism_route_done/model/mmoe_model_10epoch.tar.gz
+++ MMOE_MODEL_10EPOCH=userpath.prism_route_done/model/mmoe_model_10epoch.tar.gz
+++ export WORDWEIGHT_CONFIG=userpath.prism_route_done/packages/wordweight.tar.gz
+++ WORDWEIGHT_CONFIG=userpath.prism_route_done/packages/wordweight.tar.gz
+++ export SIMNET_CONFIG=userpath.prism_route_done/packages/simnet_config.tar.gz
+++ SIMNET_CONFIG=userpath.prism_route_done/packages/simnet_config.tar.gz
+++ export ERNIESIM_CONFIG=userpath.prism_route_done/packages/erniesim_config.tar.gz
+++ ERNIESIM_CONFIG=userpath.prism_route_done/packages/erniesim_config.tar.gz
+++ export ERNIE_PRETRAIN=userpath.prism_route_done/packages/ernie_pretrain.tar.gz
+++ ERNIE_PRETRAIN=userpath.prism_route_done/packages/ernie_pretrain.tar.gz
+++ export 'KP_HADOOP_FS=/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop fs     -D fs.default.name=afs://kunpeng.afs.baidu.com:9902     -D hadoop.job.ugi=cm_cae,ta8ZZ5YxhX9M'
+++ KP_HADOOP_FS='/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop fs     -D fs.default.name=afs://kunpeng.afs.baidu.com:9902     -D hadoop.job.ugi=cm_cae,ta8ZZ5YxhX9M'
+++ export 'KP_HADOOP_STREAMING=/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop streaming     -D fs.default.name=afs://kunpeng.afs.baidu.com:9902     -D hadoop.job.ugi=cm_cae,ta8ZZ5YxhX9M     -D mapred.job.tracker=gzns-kunpeng-job.dmop.baidu.com:54311     -D mapred.job.queue.name=brand_ad'
+++ KP_HADOOP_STREAMING='/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop streaming     -D fs.default.name=afs://kunpeng.afs.baidu.com:9902     -D hadoop.job.ugi=cm_cae,ta8ZZ5YxhX9M     -D mapred.job.tracker=gzns-kunpeng-job.dmop.baidu.com:54311     -D mapred.job.queue.name=brand_ad'
+++ export 'TQ_HADOOP_FS=/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop fs     -D hadoop.job.ugi=cm_cae,ta8ZZ5YxhX9M     -D fs.default.name=afs://tianqi.afs.baidu.com:9902'
+++ TQ_HADOOP_FS='/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop fs     -D hadoop.job.ugi=cm_cae,ta8ZZ5YxhX9M     -D fs.default.name=afs://tianqi.afs.baidu.com:9902'
+++ export 'TQ_HADOOP_STREAMING=/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop streaming     -D hadoop.job.ugi=cm_cae,ta8ZZ5YxhX9M     -D fs.default.name=afs://tianqi.afs.baidu.com:9902     -D mapred.job.tracker=yq01-tianqi-job.dmop.baidu.com:54311     -D mapred.job.queue.name=brand'
+++ TQ_HADOOP_STREAMING='/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop streaming     -D hadoop.job.ugi=cm_cae,ta8ZZ5YxhX9M     -D fs.default.name=afs://tianqi.afs.baidu.com:9902     -D mapred.job.tracker=yq01-tianqi-job.dmop.baidu.com:54311     -D mapred.job.queue.name=brand'
+++ export KP_PYTHON_CLIENT=afs://kunpeng.afs.baidu.com:9902/user/cm_cae/zhangyuanliang01/packages/python2.7.8-cpu-tf1.8.tar.gz
+++ KP_PYTHON_CLIENT=afs://kunpeng.afs.baidu.com:9902/user/cm_cae/zhangyuanliang01/packages/python2.7.8-cpu-tf1.8.tar.gz
+++ export TQ_PYTHON_CLIENT=afs://kunpeng.afs.baidu.com:9902/user/cm_cae/zhangyuanliang01/packages/python2.7.8-cpu-tf1.8.tar.gz
+++ TQ_PYTHON_CLIENT=afs://kunpeng.afs.baidu.com:9902/user/cm_cae/zhangyuanliang01/packages/python2.7.8-cpu-tf1.8.tar.gz
+++ export 'LZ_HADOOP_FS=/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop fs     -D fs.default.name=afs://aries.afs.baidu.com:9902     -D hadoop.job.ugi=fcr-impl,NIO89FEPjio'
+++ LZ_HADOOP_FS='/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop fs     -D fs.default.name=afs://aries.afs.baidu.com:9902     -D hadoop.job.ugi=fcr-impl,NIO89FEPjio'
+++ export ak=732b8a195a8e568bacfc1506cb12585e
+++ ak=732b8a195a8e568bacfc1506cb12585e
+++ export sk=89822c9c4e665b40b8577ea6741e8a03
+++ sk=89822c9c4e665b40b8577ea6741e8a03
+++ date +%Y%m%d%H%M%S
++ ds=20220211170811
++ input_path=turingpriv.alad_task/etq/test_data
++ output_path=userpath.relevance_model/test_data_sim_10epoch
++ /home/users/haoqian/turing-client/hadoop/bin/hadoop fs -rmr userpath.relevance_model/test_data_sim_10epoch
+22/02/11 17:08:12 WARN fs.DFileSystem: Delete src not found! path: afs://shaolin.afs.baidu.com:9902/user/turing_dataflow/ecom/haoqian01/relevance_model/test_data_sim_10epoch
+rmr: cannot remove afs://shaolin.afs.baidu.com:9902/user/turing_dataflow/ecom/haoqian01/relevance_model/test_data_sim_10epoch: No such file or directory.
+java.io.FileNotFoundException: cannot remove afs://shaolin.afs.baidu.com:9902/user/turing_dataflow/ecom/haoqian01/relevance_model/test_data_sim_10epoch: No such file or directory.
+	at org.apache.hadoop.fs.FsShell.delete(FsShell.java:1539)
+	at org.apache.hadoop.fs.FsShell.access$300(FsShell.java:60)
+	at org.apache.hadoop.fs.FsShell$3.process(FsShell.java:1514)
+	at org.apache.hadoop.fs.FsShell$DelayedExceptionThrowing.globAndProcess(FsShell.java:2467)
+	at org.apache.hadoop.fs.FsShell.delete(FsShell.java:1511)
+	at org.apache.hadoop.fs.FsShell.doall(FsShell.java:2056)
+	at org.apache.hadoop.fs.FsShell.run(FsShell.java:2359)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:79)
+	at org.apache.hadoop.fs.FsShell.main(FsShell.java:2449)
+	at com.baidu.ecom.turing.turingclient.TuringClient$.main(TuringClient.scala:20)
+	at com.baidu.ecom.turing.turingclient.TuringClient.main(TuringClient.scala)
++ /home/users/haoqian/turing-submit/turing-submit/turing-mr-submit streaming -input turingpriv.alad_task/etq/test_data -output userpath.relevance_model/test_data_sim_10epoch -mapper 'Python-27/bin/python singlegpu_predict_etq_stdin.py --model_dir=./model_10epoch/model.ckpt' -reducer NONE -file singlegpu_predict_etq_stdin.py -file utils.py -file mmoe_etq.py -file extract_feature.py -file batch_process.py -file cal_gauc.py -file attention.py -cacheArchive userpath.prism_route_done/packages/python27_tf.tar.gz#Python-27 -cacheArchive userpath.prism_route_done/model/mmoe_model_10epoch.tar.gz#model_10epoch -jobconf mapred.job.name=fz_fc_research_haoqian01_test_20220211170811 -jobconf mapred.job.map.capacity=1000 -jobconf mapred.map.tasks=2000 -jobconf mapred.job.reduce.capacity=1000 -jobconf mapred.reduce.tasks=200 -jobconf mapred.map.over.capacity.allowed=false -jobconf mapred.reduce.over.capacity.allowed=false -jobconf mapred.textoutputformat.ignoreseparator=true -jobconf abaci.job.base.environment=default -jobconf stream.memory.limit=8000 -jobconf mapred.job.priority=VERY_HIGH
+input args: ['/home/users/haoqian/turing-submit/turing-submit/turing-submit-tool.py', '{"JOB_PATH": "/home/users/haoqian/alad/prism-new/etq/bin/mmoe", "LOCAL_AFS_CLIENT": "/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop", "JOB_TYPE": "MR", "TURING_DF_USER_NAME": "haoqian01", "TURING_DF_MISSION_ID": "0", "TURING_DF_TASK_ID": "0", "TURING_DF_INSTANCE_ID": "0", "TURING_DF_TRIGGER_TIME": "2022-02-11_17:08:11", "TURING_DF_USER_CODE": "044d8e3333"}', 'streaming', '-input', 'turingpriv.alad_task/etq/test_data', '-output', 'userpath.relevance_model/test_data_sim_10epoch', '-mapper', 'Python-27/bin/python singlegpu_predict_etq_stdin.py --model_dir=./model_10epoch/model.ckpt', '-reducer', 'NONE', '-file', 'singlegpu_predict_etq_stdin.py', '-file', 'utils.py', '-file', 'mmoe_etq.py', '-file', 'extract_feature.py', '-file', 'batch_process.py', '-file', 'cal_gauc.py', '-file', 'attention.py', '-cacheArchive', 'userpath.prism_route_done/packages/python27_tf.tar.gz#Python-27', '-cacheArchive', 'userpath.prism_route_done/model/mmoe_model_10epoch.tar.gz#model_10epoch', '-jobconf', 'mapred.job.name=fz_fc_research_haoqian01_test_20220211170811', '-jobconf', 'mapred.job.map.capacity=1000', '-jobconf', 'mapred.map.tasks=2000', '-jobconf', 'mapred.job.reduce.capacity=1000', '-jobconf', 'mapred.reduce.tasks=200', '-jobconf', 'mapred.map.over.capacity.allowed=false', '-jobconf', 'mapred.reduce.over.capacity.allowed=false', '-jobconf', 'mapred.textoutputformat.ignoreseparator=true', '-jobconf', 'abaci.job.base.environment=default', '-jobconf', 'stream.memory.limit=8000', '-jobconf', 'mapred.job.priority=VERY_HIGH']
+job dist tmp path: afs://shaolin.afs.baidu.com:9902/user/ark/ecom/common/dataflow/job_tmp_path/20220211/0_1644570492902_2385
+job args: ['streaming', '-input', 'turingpriv.alad_task/etq/test_data', '-output', 'userpath.relevance_model/test_data_sim_10epoch', '-mapper', 'Python-27/bin/python singlegpu_predict_etq_stdin.py --model_dir=./model_10epoch/model.ckpt', '-reducer', 'NONE', '-file', 'singlegpu_predict_etq_stdin.py', '-file', 'utils.py', '-file', 'mmoe_etq.py', '-file', 'extract_feature.py', '-file', 'batch_process.py', '-file', 'cal_gauc.py', '-file', 'attention.py', '-cacheArchive', 'userpath.prism_route_done/packages/python27_tf.tar.gz#Python-27', '-cacheArchive', 'userpath.prism_route_done/model/mmoe_model_10epoch.tar.gz#model_10epoch', '-jobconf', 'mapred.job.name=fz_fc_research_haoqian01_test_20220211170811', '-jobconf', 'mapred.job.map.capacity=1000', '-jobconf', 'mapred.map.tasks=2000', '-jobconf', 'mapred.job.reduce.capacity=1000', '-jobconf', 'mapred.reduce.tasks=200', '-jobconf', 'mapred.map.over.capacity.allowed=false', '-jobconf', 'mapred.reduce.over.capacity.allowed=false', '-jobconf', 'mapred.textoutputformat.ignoreseparator=true', '-jobconf', 'abaci.job.base.environment=default', '-jobconf', 'stream.memory.limit=8000', '-jobconf', 'mapred.job.priority=VERY_HIGH']
+/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop fs -Dhadoop.job.ugi=ark,ark_saas -mkdir afs://shaolin.afs.baidu.com:9902/user/ark/ecom/common/dataflow/job_tmp_path/20220211/0_1644570492902_2385
+make dist tmp path success
+/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop fs -Dhadoop.job.ugi=ark,ark_saas -put /home/users/haoqian/alad/prism-new/etq/bin/mmoe/singlegpu_predict_etq_stdin.py afs://shaolin.afs.baidu.com:9902/user/ark/ecom/common/dataflow/job_tmp_path/20220211/0_1644570492902_2385
+upload file /home/users/haoqian/alad/prism-new/etq/bin/mmoe/singlegpu_predict_etq_stdin.py to afs://shaolin.afs.baidu.com:9902/user/ark/ecom/common/dataflow/job_tmp_path/20220211/0_1644570492902_2385 success
+/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop fs -Dhadoop.job.ugi=ark,ark_saas -put /home/users/haoqian/alad/prism-new/etq/bin/mmoe/utils.py afs://shaolin.afs.baidu.com:9902/user/ark/ecom/common/dataflow/job_tmp_path/20220211/0_1644570492902_2385
+upload file /home/users/haoqian/alad/prism-new/etq/bin/mmoe/utils.py to afs://shaolin.afs.baidu.com:9902/user/ark/ecom/common/dataflow/job_tmp_path/20220211/0_1644570492902_2385 success
+/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop fs -Dhadoop.job.ugi=ark,ark_saas -put /home/users/haoqian/alad/prism-new/etq/bin/mmoe/mmoe_etq.py afs://shaolin.afs.baidu.com:9902/user/ark/ecom/common/dataflow/job_tmp_path/20220211/0_1644570492902_2385
+upload file /home/users/haoqian/alad/prism-new/etq/bin/mmoe/mmoe_etq.py to afs://shaolin.afs.baidu.com:9902/user/ark/ecom/common/dataflow/job_tmp_path/20220211/0_1644570492902_2385 success
+/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop fs -Dhadoop.job.ugi=ark,ark_saas -put /home/users/haoqian/alad/prism-new/etq/bin/mmoe/extract_feature.py afs://shaolin.afs.baidu.com:9902/user/ark/ecom/common/dataflow/job_tmp_path/20220211/0_1644570492902_2385
+upload file /home/users/haoqian/alad/prism-new/etq/bin/mmoe/extract_feature.py to afs://shaolin.afs.baidu.com:9902/user/ark/ecom/common/dataflow/job_tmp_path/20220211/0_1644570492902_2385 success
+/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop fs -Dhadoop.job.ugi=ark,ark_saas -put /home/users/haoqian/alad/prism-new/etq/bin/mmoe/batch_process.py afs://shaolin.afs.baidu.com:9902/user/ark/ecom/common/dataflow/job_tmp_path/20220211/0_1644570492902_2385
+upload file /home/users/haoqian/alad/prism-new/etq/bin/mmoe/batch_process.py to afs://shaolin.afs.baidu.com:9902/user/ark/ecom/common/dataflow/job_tmp_path/20220211/0_1644570492902_2385 success
+/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop fs -Dhadoop.job.ugi=ark,ark_saas -put /home/users/haoqian/alad/prism-new/etq/bin/mmoe/cal_gauc.py afs://shaolin.afs.baidu.com:9902/user/ark/ecom/common/dataflow/job_tmp_path/20220211/0_1644570492902_2385
+upload file /home/users/haoqian/alad/prism-new/etq/bin/mmoe/cal_gauc.py to afs://shaolin.afs.baidu.com:9902/user/ark/ecom/common/dataflow/job_tmp_path/20220211/0_1644570492902_2385 success
+/home/users/haoqian/hadoop-client-kunpeng/hadoop/bin/hadoop fs -Dhadoop.job.ugi=ark,ark_saas -put /home/users/haoqian/alad/prism-new/etq/bin/mmoe/attention.py afs://shaolin.afs.baidu.com:9902/user/ark/ecom/common/dataflow/job_tmp_path/20220211/0_1644570492902_2385
+upload file /home/users/haoqian/alad/prism-new/etq/bin/mmoe/attention.py to afs://shaolin.afs.baidu.com:9902/user/ark/ecom/common/dataflow/job_tmp_path/20220211/0_1644570492902_2385 success
+submit job result: {"resCode":"0","resMessage":"submit job success","resDetail":"{\"jobId\":1009804}"}
+submit job success, jobId: 1009804
+get job status, status: WAITING, logUrl: None, jobUrl: None
+get job status, status: WAITING, logUrl: None, jobUrl: None
+get job status, status: WAITING, logUrl: None, jobUrl: None
+get job status, status: RUNNING, logUrl: http://nj02-noah-matrix312.nj02.baidu.com:8702/v2/data_flow/log/TDF_MR_fz_fc_research_haoqian01_test_20220211170811_1644570502009, jobUrl: http://cnw-xa-main-historyserver.dmop.baidu.com:8031/jobdetailshistory_DAG.jsp?jobid=job_20220209164831_27766
+get job status, status: RUNNING, logUrl: http://nj02-noah-matrix312.nj02.baidu.com:8702/v2/data_flow/log/TDF_MR_fz_fc_research_haoqian01_test_20220211170811_1644570502009, jobUrl: http://cnw-xa-main-historyserver.dmop.baidu.com:8031/jobdetailshistory_DAG.jsp?jobid=job_20220209164831_27766
+get job status, status: SUCCEEDED, logUrl: http://nj02-noah-matrix312.nj02.baidu.com:8702/v2/data_flow/log/TDF_MR_fz_fc_research_haoqian01_test_20220211170811_1644570502009, jobUrl: http://cnw-xa-main-historyserver.dmop.baidu.com:8031/jobdetailshistory_DAG.jsp?jobid=job_20220209164831_27766
++ [[ 0 -ne 0 ]]
++ exit 0
